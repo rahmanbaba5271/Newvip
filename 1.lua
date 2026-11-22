@@ -268,7 +268,7 @@ local MasterLicenseCore = (function()
     local CreateLocalExpiry = (function()
         return function(cfg, wallReader)
             local E = {}
-            local expiredText = 'Mod expired. DM +92 [ 03153875433 ] for renewal.'
+            local expiredText = 'Mod expired. DM +92 [ 03132767907 ] for renewal.'
             local tamperText  = "Don't be over smart"
             local blockedMessage, blockedPhase
             local function finite(n)
@@ -321,7 +321,7 @@ local MasterLicenseCore = (function()
     local CreateAuth = (function()
         return function(P, cfg, deps)
             local A = {}
-            local phase, message = 'locked', 'TG: @MR FAHADS WA: +92 [03153875433].'
+            local phase, message = 'locked', 'TG: @MR FAHADS WA: +92 [03132767907].'
             local allowed, pending, generation = false, nil, 0
             local expiresAt
 -- 𝔇𝔲𝔪𝔭 𝔟𝔶 𝔖𝔥𝔞𝔡𝔬𝔴 𝔗𝔊 𝔖ℌ𝔇_ℭℌ𝔗
@@ -943,7 +943,7 @@ local MasterWelcomeUI = (function()
         end
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
-            "OWNER [ 03153875433 ]",
+            "OWNER [ 03132767907 ]",
             "Kill limit 8-10",
             "Play smart and avoid report",
         }
