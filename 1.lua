@@ -943,7 +943,7 @@ local MasterWelcomeUI = (function()
         end
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
-            "OWNER [ 03153875433 ]",
+            "OWNER [ 03132767907 ]",
             "Kill limit 8-10",
             "Play smart and avoid report",
         }
