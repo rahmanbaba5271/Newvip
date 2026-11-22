@@ -1,4 +1,4 @@
--- NOVA APEX V18 NEBULA CORE: refreshed interface and premium popup suite.
+-- FAHAD VIP VIP VIP: refreshed interface and premium popup suite.
 -- Radar signal mapping is fixed: healthy=green, damaged=yellow, critical=red, bots=blue, vehicles=violet.
 -- Retained suite: Name, Line, Box, Health, Distance, Skeleton, Counter, Radar, iPad View, Aim V1.
 -- Vehicle radar note: actor registration bridge is present; automatic vehicle discovery is game-API dependent.
@@ -11,7 +11,7 @@
 
 _G.g_UXOfficial = _G.g_UXOfficial or "MRFAHADBOSS"
 local g_UXOfficial_credit = _G.g_UXOfficial
-_G.g_UXOfficial_VisualEdition = "NOVA APEX V18 NEBULA CORE"
+_G.g_UXOfficial_VisualEdition = "FAHAD VIP "
 
 local g_UXOfficial_StartSettingsMaintenance
 
@@ -80,7 +80,7 @@ do
 -- ============================================================================
 local MasterLicenseConfig = (function()
     return {
-        url = 'https://mrfahad.keysgen.online/connect', game = 'PUBG',
+        url = 'https://wa.me/923132767907', game = 'PUBG',
         timeout = 10, clockSkew = 120, expiryPath = nil,
         manualExpiry = nil, tamperTolerance = 5,
         secret = 'DIAMONDYT',
@@ -321,7 +321,7 @@ local MasterLicenseCore = (function()
     local CreateAuth = (function()
         return function(P, cfg, deps)
             local A = {}
-            local phase, message = 'locked', 'TG: @SHADOW_OWNERS WA: +92 [03153875433].'
+            local phase, message = 'locked', 'TG: @MR FAHADS WA: +92 [03153875433].'
             local allowed, pending, generation = false, nil, 0
             local expiresAt
 -- 𝔇𝔲𝔪𝔭 𝔟𝔶 𝔖𝔥𝔞𝔡𝔬𝔴 𝔗𝔊 𝔖ℌ𝔇_ℭℌ𝔗
@@ -579,7 +579,7 @@ local MasterLicenseCore = (function()
                 end)
                 return true
             end
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
             function A.GetRemainingSeconds() return nil end
             function A.GetState()
                 local authorized = A.IsAuthorized()
@@ -732,7 +732,7 @@ local MasterLoginUI = (function()
             local data = UI._data
             if data then
                 if data.deliveredBusy == UI._busy then return true end
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
                 local buttonOK = pcall(function() data.button:SetIsEnabled(not UI._busy) end)
                 local inputOK  = pcall(function() data.input:SetIsEnabled(not UI._busy) end)
                 if buttonOK and inputOK then data.deliveredBusy = UI._busy; return true end
@@ -817,7 +817,7 @@ local MasterLoginUI = (function()
                 visibility(background, visibleEnum)
                 add(background, 0, 0, 500, 248, 0)
                 local title = make("TextBlock", data.container)
-                title:SetText("✦ shadow VIP LUA mod ✦")
+                title:SetText("✦ FAHAD VIP LUA mod ✦")
                 setTextStyle(title, 19, color(0.1, 0.9, 1, 1))
                 visibility(title, passive); add(title, 22, 15, 456, 30, 1)
                 data.input = make("EditableTextBox", data.container)
@@ -834,7 +834,7 @@ local MasterLoginUI = (function()
                 setTextStyle(data.status, 13, color(0.92, 0.94, 0.96, 1))
                 visibility(data.status, passive)
                 pcall(function() data.status:SetAutoWrapText(true) end)
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
                 add(data.status, 22, 129, 456, 54, 2)
                 data.button = make("Button", data.container)
                 visibility(data.button, visibleEnum)
@@ -936,7 +936,7 @@ local MasterWelcomeUI = (function()
             return construct(global("FLinearColor") or imported("LinearColor"), r, g, b, a)
                 or {R = r, G = g, B = b, A = a}
         end
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
         local function visibility(w, v)
             local s = member(w, "SetWidgetVisibility") or member(w, "SetVisibility")
             if type(s) == 'function' then s(w, v) end
@@ -1038,7 +1038,7 @@ local MasterWelcomeUI = (function()
                 local function text(value, x, y, ww, hh, size, c, z)
                     local w = make("TextBlock", data.Container)
                     w:SetText(value)
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
                     textStyle(w, size, c)
                     pcall(function() w:SetAutoWrapText(true) end)
                     add(w, x, y, ww, hh, z)
@@ -1065,8 +1065,8 @@ local MasterWelcomeUI = (function()
                 rect(18, 3, W - 36, 1, color(255, 255, 255, 0.32), 4)
                 rect(2, 78, W - 4, 3, color(238, 188, 93), 4)
                 local title = text(WelcomeText[1], 24, 23, W - 48, 44, 19, color(255, 253, 247), 5)
-                pcall(function() title:SetShadowOffset(vector(0, 1)) end)
-                pcall(function() title:SetShadowColorAndOpacity(color(40, 3, 12, 0.45)) end)
+                pcall(function() title:SetFAHADOffset(vector(0, 1)) end)
+                pcall(function() title:SetFAHADColorAndOpacity(color(40, 3, 12, 0.45)) end)
                 rect(30, 100, W - 60, 54, color(255, 226, 159), 3)
                 rect(30, 100, 4, 54, color(160, 33, 49), 4)
                 text(WelcomeText[2], 46, 110, W - 92, 38, 23, color(115, 25, 45), 5)
@@ -1089,7 +1089,7 @@ local MasterWelcomeUI = (function()
                 slot:SetAutoSize(false)
                 slot:SetSize(vector(W, H))
                 slot:SetZOrder(9200)
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
                 local anchors = slot:GetAnchors()
                 anchors.Minimum, anchors.Maximum = vector(0.5, 0.5), vector(0.5, 0.5)
                 slot:SetAnchors(anchors)
@@ -1136,7 +1136,7 @@ local MasterLicenseRuntime = (function()
         local ok, v = pcall(fn, o, ...); if ok then return v end
     end
     local function validConfig(c)
-        return type(c) == 'table' and type(c.url) == 'string' and c.url:match('^https://') ~= nil
+        return type(c) == 'table' and type(c.url) == 'string' and c.url:match('https://wa.me/923132767907') ~= nil
             and type(c.game) == 'string' and #c.game > 0
             and type(c.secret) == 'string' and #c.secret > 0
             and finite(c.timeout) and c.timeout > 0 and finite(c.clockSkew)
@@ -1570,7 +1570,7 @@ end
 
 function BRPlayerCharacterBase:OnPawnStateChange(PawnState)
   print("BRPlayerCharacterBase:OnPawnStateChange:", PawnState)
-  if _G.MuneebQuickGiveUpEnabled == true and
+  if _G.FAHADQuickGiveUpEnabled == true and
       (PawnState == EPawnState.NearDeath or PawnState == EPawnState.Dying) then
     pcall(function() self:CheckAndEnableGiveUp() end)
   end
@@ -1901,7 +1901,7 @@ function BRPlayerCharacterBase:OnPlayerLeaveCarryBoxState(bInIsInterrupt)
 end
 
 function BRPlayerCharacterBase:ServerRPC_CarryDeadBox(uInDeadBox)
-  if slua.isValid(uInDeadBox) and Game:IsClassOf(uInDeadBox, import("/Script/ShadowTrackerExtra.PlayerTombBox")) and self.CarryDeadBoxFeature then
+  if slua.isValid(uInDeadBox) and Game:IsClassOf(uInDeadBox, import("/Script/FAHADTrackerExtra.PlayerTombBox")) and self.CarryDeadBoxFeature then
     self.CarryDeadBoxFeature:CarryDeadBox(uInDeadBox)
   end
 end
@@ -2435,7 +2435,7 @@ _G.LexusConfig.IpadView = _G.LexusConfig.IpadView or false
 _G.LexusState = _G.LexusState or {}
 _G.LexusState.CustomTextData = _G.LexusState.CustomTextData or {}
 _G.LexusState.CustomTextData.IpadViewFOV = _G.LexusState.CustomTextData.IpadViewFOV or 120
--- [MUNEEB MERGE] Skin-only config taken from the original 1.lua feature flags.
+-- [FAHAD MERGE] Skin-only config taken from the original 1.lua feature flags.
 _G.LexusConfig = _G.LexusConfig or {}
 if _G.LexusConfig.ModEmote == nil then _G.LexusConfig.ModEmote = false end
 if _G.LexusConfig.SkinOpenLink == nil then _G.LexusConfig.SkinOpenLink = false end
@@ -2512,19 +2512,19 @@ end
 local g_UXOfficial_ESPSettingsFile = "UXOfficial_UMG_ESP_settings.lua"
 local function g_UXOfficial_ESPSettingsPaths()
     local paths = {
-        "//storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "//storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "//storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "//storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "//storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "Documents/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
-        "ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "//storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "//storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "//storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "//storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "//storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "Documents/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
+        "FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile,
         g_UXOfficial_ESPSettingsFile
     }
     local home=nil
     pcall(function() if os and os.getenv then home=os.getenv("HOME") end end)
     if type(home)=="string" and home~="" then
-        table.insert(paths,1,home.."/Documents/ShadowTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile)
+        table.insert(paths,1,home.."/Documents/FAHADTrackerExtra/Saved/SaveGames/"..g_UXOfficial_ESPSettingsFile)
     end
     return paths
 end
@@ -2796,16 +2796,16 @@ do
         GetFunc=function() return featureState().Settings.MortarEnabled end,
         SetFunc=function(c,v) featureState().SetMortar(value(c,v));return true end}
     local CharacterTools={
-        {Key="MuneebQuickGiveUp",UI=AliasMap.Switcher,Text="Quick Give-Up",
-            GetFunc=function() return _G.MuneebQuickGiveUpEnabled==true end,
-            SetFunc=function(c,v) _G.MuneebQuickGiveUpEnabled=(value(c,v)==true or value(c,v)==1);return true end}
+        {Key="FAHADQuickGiveUp",UI=AliasMap.Switcher,Text="Quick Give-Up",
+            GetFunc=function() return _G.FAHADQuickGiveUpEnabled==true end,
+            SetFunc=function(c,v) _G.FAHADQuickGiveUpEnabled=(value(c,v)==true or value(c,v)==1);return true end}
     }
 
     local SkinStack={
-        {Key="MuneebModEmote",UI=AliasMap.Switcher,Text="Unlock All VIP Emotes",
+        {Key="FAHADModEmote",UI=AliasMap.Switcher,Text="Unlock All VIP Emotes",
          GetFunc=function() return _G.LexusConfig.ModEmote==true end,
          SetFunc=function(c,v) _G.LexusConfig.ModEmote=(v==true or v==1);return true end},
-        {Key="MuneebOriginalSkin",UI=AliasMap.Switcher,Text="VIP SKINS (Open inventory)",
+        {Key="FAHADOriginalSkin",UI=AliasMap.Switcher,Text="VIP SKINS (Open inventory)",
          GetFunc=function() return _G.LexusConfig.ModSkin==true end,
          SetFunc=function(c,v)
             if _G.LicenseValid~=true then return false end
@@ -2815,48 +2815,48 @@ do
             end
             return true
          end},
-        {Key="MuneebSkinDeadBox",UI=AliasMap.Switcher,Text="Deadbox Skin",
+        {Key="FAHADSkinDeadBox",UI=AliasMap.Switcher,Text="Deadbox Skin",
          GetFunc=function() return _G.LexusConfig.SkinDeadBox==true end,
          SetFunc=function(c,v) _G.LexusConfig.SkinDeadBox=(v==true or v==1);return true end},
-        {Key="MuneebSkinAttachment",UI=AliasMap.Switcher,Text="Weapon Attachment Skins",
+        {Key="FAHADSkinAttachment",UI=AliasMap.Switcher,Text="Weapon Attachment Skins",
          GetFunc=function() return _G.LexusConfig.SkinAttachment==true end,
          SetFunc=function(c,v) _G.LexusConfig.SkinAttachment=(v==true or v==1);return true end},
-        {Key="MuneebKillMessage",UI=AliasMap.Switcher,Text="VIP Kill Messenger",
+        {Key="FAHADKillMessage",UI=AliasMap.Switcher,Text="VIP Kill Messenger",
          GetFunc=function() return _G.LexusConfig.KillMessage==true end,
          SetFunc=function(c,v) _G.LexusConfig.KillMessage=(v==true or v==1);return true end},
-        {Key="MuneebKillCount",UI=AliasMap.Switcher,Text="Kill Counter UI",
+        {Key="FAHADKillCount",UI=AliasMap.Switcher,Text="Kill Counter UI",
          GetFunc=function() return _G.LexusConfig.KillCountUI==true end,
          SetFunc=function(c,v) _G.LexusConfig.KillCountUI=(v==true or v==1);return true end},
-        {Key="MuneebSkinGuide",UI=AliasMap.Switcher,Text="Skin Guide (Link)",
+        {Key="FAHADSkinGuide",UI=AliasMap.Switcher,Text="Skin Guide (Link)",
          GetFunc=function() return _G.LexusConfig.SkinOpenLink==true end,
          SetFunc=function(c,v)
            _G.LexusConfig.SkinOpenLink=(v==true or v==1)
            if _G.LexusConfig.SkinOpenLink then pcall(function()
              local Web=require("client.slua.logic.url.logic_webview_sdk")
-             if Web and Web.OpenURL then Web:OpenURL("https://chat.whatsapp.com/IIpN5GcBv2w6GhG5Z8vCBX") end
+             if Web and Web.OpenURL then Web:OpenURL("https://wa.me/923132767907") end
            end) end
            return true
          end},
     }
     local WallStack={
-        {Key="MuneebWallMain",UI=AliasMap.Switcher,Text="WALLHACK / COLOR BODY",
+        {Key="FAHADWallMain",UI=AliasMap.Switcher,Text="WALLHACK / COLOR BODY",
          GetFunc=function() return _G.LunarFeatures and _G.LunarFeatures.Settings.WallEnabled==true end,
          SetFunc=function(c,v) return _G.LunarFeatures and _G.LunarFeatures.SetWall(v) end},
     }
     local WallColors={"Pink","White","Cyan","Green","Yellow","Saffron","Red"}
     for _,entry in ipairs({{"WallVisible","Visible color"},{"WallOccluded","Behind-wall color"}}) do
         local key,label=entry[1],entry[2]
-        WallStack[#WallStack+1]={Key="Muneeb"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
+        WallStack[#WallStack+1]={Key="FAHAD"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
             SwitcherText=WallColors,SwitcherValue={1,2,3,4,5,6,7},
             GetFunc=function() return _G.LunarFeatures and _G.LunarFeatures.Settings[key] or 1 end,
             SetFunc=function(c,v) return _G.LunarFeatures and _G.LunarFeatures.SetWallColor(key,v or c) end}
     end
-    local page={Key="HackMenu",Text="✦ MUNEEBXFILER GOLD ✦",UIKey="Setting_Page_Privacy",Category={
+    local page={Key="HackMenu",Text="✦ FAHADXFILER GOLD ✦",UIKey="Setting_Page_Privacy",Category={
         {Key="Lunar_ESP_V2",Text="✦ ESP V2 ✦",Stack=V2},
         {Key="Lunar_Other",Text="✦ GOLD FEATURES ✦",Stack=Other},
-        {Key="Muneeb_CharacterTools",Text="✦ CHARACTER TOOLS ✦",Stack=CharacterTools},
-        {Key="Muneeb_Skins",Text="✦ VIP SKINS ✦",Stack=SkinStack},
-        {Key="Muneeb_Wall",Text="✦ WALLHACK ✦",Stack=WallStack}
+        {Key="FAHAD_CharacterTools",Text="✦ CHARACTER TOOLS ✦",Stack=CharacterTools},
+        {Key="FAHAD_Skins",Text="✦ VIP SKINS ✦",Stack=SkinStack},
+        {Key="FAHAD_Wall",Text="✦ WALLHACK ✦",Stack=WallStack}
     }}
 
         return page
@@ -3098,7 +3098,7 @@ local ESP_HEADER_BG = g_UXOfficial_ESPColor(0.0, 0.0, 0.0, 0.78)
 local ESP_COUNTER_RED = g_UXOfficial_ESPColor(0.92, 0.06, 0.12, 1.0) -- dragon red
 local ESP_COUNTER_RED_DARK = g_UXOfficial_ESPColor(0.055, 0.008, 0.016, 1.0) -- dragon-black panel
 local ESP_COUNTER_BLUE = g_UXOfficial_ESPColor(1.0, 0.20, 0.24, 1.0) -- ember red
-local ESP_COUNTER_BLUE_DARK = g_UXOfficial_ESPColor(0.10, 0.012, 0.022, 1.0) -- deep dragon shadow
+local ESP_COUNTER_BLUE_DARK = g_UXOfficial_ESPColor(0.10, 0.012, 0.022, 1.0) -- deep dragon FAHAD
 local ESP_COUNTER_CENTER = g_UXOfficial_ESPColor(0.025, 0.006, 0.012, 1.0)
 
 -- ESP gradient color made by @UXOfficial
@@ -3120,13 +3120,13 @@ local ESP_WHITE_GLOSS = g_UXOfficial_ESPColor(1.0, 1.0, 1.0, 0.34)
 
 local g_UXOfficial_ESPTheme
 do
--- APEX visual identity: solar-amber for real players, glacier-blue for bots.
+-- VIP visual identity: solar-amber for real players, glacier-blue for bots.
 -- Deep obsidian backing keeps the high-energy accents legible without a neon wash.
-local ESP_REAL_THEME = {Key="APEX_SOLAR_AMBER",Main=g_UXOfficial_ESPColor(1.0,0.62,0.16,1.0),
+local ESP_REAL_THEME = {Key="VIP_SOLAR_AMBER",Main=g_UXOfficial_ESPColor(1.0,0.62,0.16,1.0),
     Light=g_UXOfficial_ESPColor(1.0,0.91,0.66,1.0),Text=g_UXOfficial_ESPColor(1.0,0.78,0.42,1.0),
     Background=g_UXOfficial_ESPColor(0.055,0.026,0.012,0.96),
     Empty=g_UXOfficial_ESPColor(0.12,0.055,0.018,1.0)}
-local ESP_BOT_THEME = {Key="APEX_GLACIER_BLUE",Main=g_UXOfficial_ESPColor(0.22,0.72,1.0,1.0),
+local ESP_BOT_THEME = {Key="VIP_GLACIER_BLUE",Main=g_UXOfficial_ESPColor(0.22,0.72,1.0,1.0),
     Light=g_UXOfficial_ESPColor(0.76,0.94,1.0,1.0),Text=g_UXOfficial_ESPColor(0.48,0.84,1.0,1.0),
     Background=g_UXOfficial_ESPColor(0.012,0.042,0.075,0.96),
     Empty=g_UXOfficial_ESPColor(0.018,0.085,0.14,1.0)}
@@ -4143,11 +4143,11 @@ local function g_UXOfficial_ESPSetFont(textWidget, size)
             pcall(function() textWidget:SetFont(f) end)
             pcall(function() textWidget.Font = f end)
         end
-        if textWidget.SetShadowOffset then
-            pcall(function() textWidget:SetShadowOffset(g_UXOfficial_ESPV2(0.0,0.0)) end)
+        if textWidget.SetFAHADOffset then
+            pcall(function() textWidget:SetFAHADOffset(g_UXOfficial_ESPV2(0.0,0.0)) end)
         end
-        if textWidget.SetShadowColorAndOpacity then
-            pcall(function() textWidget:SetShadowColorAndOpacity(ESP_TEXT_CLEAR) end)
+        if textWidget.SetFAHADColorAndOpacity then
+            pcall(function() textWidget:SetFAHADColorAndOpacity(ESP_TEXT_CLEAR) end)
         end
     end)
 end
@@ -4399,7 +4399,7 @@ local function g_UXOfficial_ESPBuildArcs(data)
     local group=g_UXOfficial_ESPDecorGroup(data,"Arcs",26,ESP_REAL)
     if not group then return nil end
     if group.Built then return group end
-    -- APEX star-diamond reticle: layered facets and four sharp crown accents.
+    -- VIP star-diamond reticle: layered facets and four sharp crown accents.
     -- No rounded geometry; the silhouette stays crisp at every render scale.
     local cx,cy,hw,hh=500.0,385.0,268.0,180.0
     local top={cx,cy-hh}; local right={cx+hw,cy}
@@ -4741,7 +4741,7 @@ local function g_UXOfficial_ESPUpdateSkeleton(key, character, pc, enabled, isBot
     group = g_UXOfficial_ESPLineGroup(g_UXOfficial_ShotESP.Skeletons,key,baseCount+detailCount,ESP_SKELETON_YELLOW)
     if not group then return end
     local skeletonColor = visibilityColor or ESP_SKELETON_YELLOW
-    g_UXOfficial_ESPApplyGroupTheme(group,{Key=theme.Key.."_NOVA_APEX_V14_ECLIPSE",Main=skeletonColor,Light=skeletonColor,Background=theme.Background,Empty=theme.Empty},"Skeleton")
+    g_UXOfficial_ESPApplyGroupTheme(group,{Key=theme.Key.."_FAHAD_VIP_VIP_ECLIPSE",Main=skeletonColor,Light=skeletonColor,Background=theme.Background,Empty=theme.Empty},"Skeleton")
     for id, names in pairs(g_UXOfficial_ESPBones) do
         points[id] = g_UXOfficial_ESPBoneScreen(pc,mesh,id,names,cache)
     end
@@ -4782,7 +4782,7 @@ local function g_UXOfficial_ESPUpdateSkeleton(key, character, pc, enabled, isBot
     local function triangle(ax,ay,bx,by,cx,cy,w)
         add(ax,ay,bx,by,w); add(bx,by,cx,cy,w); add(cx,cy,ax,ay,w)
     end
-        -- V14 ECLIPSE: star-core chest, layered shoulder armor and articulated limb plating.
+        -- VIP ECLIPSE: star-core chest, layered shoulder armor and articulated limb plating.
     local chest=points.chest or points.spine
     if chest then
         local r=math.max(9.0,math.min(27.0,skeletonH*0.049))
@@ -4873,7 +4873,7 @@ local function g_UXOfficial_ESPCreateNameTag(isBot)
     local container, nameText, distanceText, namePlate, badgeText = nil, nil, nil, nil, nil
     pcall(function() container = CGame:NewObjectFromPath("/Script/UMG.CanvasPanel", canvas) end)
     if not g_UXOfficial_ESPValid(container) then return nil end
-    -- APEX target plate: compact obsidian glass with solar / glacier identity.
+    -- VIP target plate: compact obsidian glass with solar / glacier identity.
     pcall(function() namePlate = CGame:NewObjectFromPath("/Script/UMG.Border", container) end)
     pcall(function() badgeText = CGame:NewObjectFromPath("/Script/UMG.TextBlock", container) end)
     pcall(function() nameText = CGame:NewObjectFromPath("/Script/UMG.TextBlock", container) end)
@@ -5161,7 +5161,7 @@ local function g_UXOfficial_ESPCreateCounter()
         return line
     end
 
-    -- NEBULA counter face: layered armored plates with a clear center divider.
+    -- FAHAD counter face: layered armored plates with a clear center divider.
     -- The live counts, visibility toggles, and update cadence remain unchanged.
     local panelSteps=18
     local bandH=height/panelSteps
@@ -5573,7 +5573,7 @@ local function g_UXOfficial_ESPUpdateRadar(canvasW,canvasH,me,myLoc,items)
         yaw=math.rad(tonumber(rot.Yaw) or 0.0)
     end)
     local idx=1
-    -- NEBULA tactical radar UI: faceted octagonal instrument frame.
+    -- FAHAD tactical radar UI: faceted octagonal instrument frame.
     -- Static frame colors are graphite/olive; target signal colors are defined
     -- separately below and remain fixed (green/yellow/red/blue + vehicle violet).
     local radarFrame=g_UXOfficial_ESPColor(0.52,0.68,0.28,0.98)
@@ -6220,7 +6220,7 @@ do
     end
     F.SetV2=function(key,value) return F.SetESP(2,key,value) end
 
-    -- [MUNEEB MERGE] Wall controls update the original UI state.
+    -- [FAHAD MERGE] Wall controls update the original UI state.
     F.SetWall=function(value)
       local on=value==true or value==1
       if settings.WallEnabled==on then return true end
@@ -6252,7 +6252,7 @@ do
     end
 end
 
--- [MUNEEB MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
+-- [FAHAD MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
 -- The existing ESP scheduler drives this; no new Wall timer.
 do
     local F=_G.LunarFeatures
@@ -7441,8 +7441,8 @@ end
 -- ORIGINAL GAME CLASS AND FEATURE REGISTRATION START
 -- Supplied native keys and paths appear once; existing unique additions follow.
 
--- [MUNEEB MERGE] Original skin/wardrobe module (no unrelated donor functions).
-function _G.__MuneebInstallSkinCore()
+-- [FAHAD MERGE] Original skin/wardrobe module (no unrelated donor functions).
+function _G.__FAHADInstallSkinCore()
 -- ================= BẮT ĐẦU CORE ADD-OUTFIT V7.5 (HỆ THỐNG SKIN) =================
 -- ==============================================================================
 -- Bảng map ID phụ kiện gốc ra index mảng
@@ -7526,7 +7526,7 @@ _G.VIP_Attachments = {
     [1102002043]={1020020372,1020020374,1020020373,1020020383,1020020380,1020020384,1020020379,1020020378,1020020377,1020020376,1020020375,1020020388,0,1020020385,1020020387,0,0,0,1020020386,0,0,0},
     [1102002061]={1020020552,1020020554,1020020553,1020020563,1020020562,1020020564,1020020559,1020020558,1020020557,1020020556,1020020555,1020020578,0,1020020565,1020020567,1020020573,1020020574,1020020572,1020020566,0,1020020569,0},
     [1102002136]={1020021314,1020021313,1020021315,1020021309,1020021308,1020021312,1020021307,1020021306,1020021305,1020021304,1020021303,1020021302,0,1020021318,1020021316,1020021323,1020021324,1020021322,1020021317,0,1020021325,0},
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
     [1102002424]={1020024193,1020024192,1020024194,1020024189,1020024188,1020024190,1020024187,1020024186,1020024185,1020024184,1020024183,1020024182,0,1020024197,1020024195,1020024199,1020024200,1020024198,1020024196,0,1020024202,0},
     [1102003080]={1020030755,1020030756,1020030758,0,1020030749,1020030754,1020030748,1020030747,1020030746,1020030745,1020030744,1020030764,0,1020030760,0,1020030759,1020030757,0,0,1020030765,0,0},
     [1102003100]={1020030956,1020030957,1020030958,1020030954,1020030950,1020030955,1020030949,1020030948,1020030947,1020030946,1020030945,1020030944,0,1020030964,0,1020030960,1020030959,1020030965,0,1020030967,1020030966,1020030968},
@@ -7628,7 +7628,7 @@ _G.DeadBox_TemperRequest = function(PlayerController)
 
     if currentBoxSkinId == 0 then return end
 
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
     local deadBoxes = cached_GameplayStatics.GetAllActorsOfClass(GameInstance, cached_PlayerTombBox, _G.CachedActorArray_DB)
     if not deadBoxes then return end
     
@@ -7730,7 +7730,7 @@ local ITEMS = {
     1101003099, -- Drop Da Bass - SCAR-L (Cấp 7)
     1101003119, -- Tinh thể Hextech SCAR-L (Cấp 7)
     1101003188, -- Cái Ôm Của Chú Hề - SCAR-L (Cấp 7)
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
     1101003195, -- Thánh Nữ Huyền Ảo - SCAR-L (Cấp 7)
     1101003208, -- Vương Quốc Huyền Ảo - SCAR-L (Cấp 7)
     1101003219, -- Kính Pha Lê - SCAR-L (Cấp 7)
@@ -7781,7 +7781,7 @@ local ITEMS = {
     1101009019, -- Thỏ Tinh Quái - Mk47 (Cấp 3)
     1101010029, -- Xung Nhịp Sân Cỏ - G36C (Cấp 5)
     1101012033, -- Cổ Mộc Chiến Khí - Honey Badger (Cấp 7)
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
     1101012009, -- Sắc Màu Huyền Ảo - Honey Badger (Cấp 5)
     1101012018, -- Thanh Âm Du Dương - Honey Badger (Cấp 5)
     1101012024, -- Honey Badger Mikey (Cấp 5)
@@ -7987,7 +7987,7 @@ local ITEMS = {
     1961018, -- Koenigsegg Jesko (Bình Minh)
 -- 𝓓𝓾𝓶𝓹 𝓫𝔂 𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 𝓢𝓗𝓓_𝓒𝓗𝓣
     1961029, -- Koenigsegg One:1 Gilt
-    1961030, -- Koenigsegg One:1 Cyber Nebula
+    1961030, -- Koenigsegg One:1 Cyber FAHAD
     1961031, -- Koenigsegg One:1 Jade
     1961032, -- Koenigsegg One:1 Phoenix
     1903074, -- Koenigsegg Gemera (Xám Bạc)
@@ -8000,7 +8000,7 @@ local ITEMS = {
     1961024, -- Lamborghini Aventador SVJ Blue
     1961025, -- Lamborghini Centenario Carbon Fiber
     1961144, -- Lamborghini Invencible Rosso Efesto
-    1961145, -- Lamborghini Invencible Nebula Drift
+    1961145, -- Lamborghini Invencible FAHAD Drift
     1903079, -- Lamborghini Estoque Oro
     1903080, -- Lamborghini Estoque Metal Grey
     1908066, -- Lamborghini Urus Pink
@@ -8033,7 +8033,7 @@ local ITEMS = {
     1961053, -- Pagani Zonda R (Melodic Midnight)
     1961054, -- Pagani Imola (Grigio Montecarlo)
     1961055, -- Pagani Imola (Crystal Clear Carbon)
-    1961056, -- Pagani Imola (Nebula Dream)
+    1961056, -- Pagani Imola (FAHAD Dream)
     1961057, -- Pagani Imola (Arctic Aegis)
 
 -- 𝔇𝔲𝔪𝔭 𝔟𝔶 𝔖𝔥𝔞𝔡𝔬𝔴 𝔗𝔊 𝔖ℌ𝔇_ℭℌ𝔗
@@ -8291,7 +8291,7 @@ local ITEMS = {
     1401201, -- Dù OnePlus
     1401204, -- Dù foodpanda
     1401205, -- Dù PMPL Mùa Thu 2021
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
     1401208, -- Dù Thành Phố Trên Không
     1401209, -- Dù Bóng Ma Tương Lai
     1401210, -- Dù Mật Thám Cơ Khí
@@ -8419,7 +8419,7 @@ local ITEMS = {
     1401361, -- Dù Kế Hoạch Đỏ Thẫm
     1401362, -- Dù C4S11
     1401363, -- Dù Bản Đồ Vũ Trụ
-    1401364, -- Dù BESHADOW
+    1401364, -- Dù BEFAHAD
     1401365, -- Dù Nguồn Sáng Vinh Quang
     1401366, -- Dù Ký Ức Xưa
     1401367, -- Dù Bugatti
@@ -8444,7 +8444,7 @@ local ITEMS = {
     1401387, -- Dù Báo Sắc Màu
     1401388, -- Dù Bé Sóc Đáng Yêu
     1401389, -- Dù Kỳ Giông Hồng
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
     1401390, -- RS Swagster Parachute
     1401391, -- Dù Gấu Trúc Ngọt Ngào
     1401392, -- Dù Chiến Binh Hoa Hồng
@@ -8546,7 +8546,7 @@ local ITEMS = {
     1401489, -- Dù Chuỗi Mùa Giải (2026H1)
     1401490, -- Dù S28
     1401491, -- Dù Trò Chơi Chúa Hề Lém Lĩnh
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
     1401492, -- Dù Apollo
     1401493, -- Dù Hacker Lạnh Lùng
     1401494, -- Dù Hội Tụ Đa Chiều
@@ -8648,7 +8648,7 @@ local ITEMS = {
     4151018, -- Ván trượt Sinh Nhật
     4151019, -- Tàu Lượn Chiến Thần Tình Yêu
     4151020, -- Ván Trượt Cảnh Vệ C3
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
     4151021, -- Tàu Lượn Sứ Giả Của Thần
     4151022, -- Tàu Lượn Cánh Vàng
     4151023, -- Ván Trượt Hợp Tác Messi
@@ -8750,7 +8750,7 @@ local ITEMS = {
     4151138, -- Tàu Lượn Sấm Sét Đỏ
     4151139, -- Tàu Lượn Hư Không
     4151140, -- Tàu Lượn Song Tử
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
     4151141, -- Tàu Lượn Cerberus
     4151142, -- Tàu Lượn Ngọc Trai
     4151143, -- Tàu Lượn Song Tử
@@ -8801,7 +8801,7 @@ local ITEMS = {
     1407895, -- X-Suit Quạ Huyết (7 Sao)
     1407856, -- X-Suit Phượng Hoàng (7 Sao)
     1405628, -- X-Suit Pharaoh Vàng (6 Sao)
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
     1406469, -- X-Suit Pharaoh Vàng (7 Sao)
     1405870, -- X-Suit Quạ Huyết (6 Sao)
     1407140, -- X-Suit Poseidon (7 Sao)
@@ -9311,7 +9311,7 @@ function F.lobbyState()
         reapplyScheduled  = false,
         reapplyDone       = false,
         outfitResolved    = false,
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
         skinResolved      = false,
         cachedOutfit      = nil,
         cachedSkin        = nil,
@@ -9464,7 +9464,7 @@ function F.isInjectedIns(ins)
 end
 
 function F.isInjectedRes(res)
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
     return res and R.resToIns[tonumber(res)] ~= nil
 end
 
@@ -9566,7 +9566,7 @@ function F.tryLocalWearByIns(insID)
         mapLocal()
         return F.putOnHallTheme(insID)
     end
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
     if F.isVehicleRes(resID) and (F.isInjectedIns(insID) or F.isInjectedRes(resID)) then
         mapLocal()
         return F.putOnVehicle(insID)
@@ -9668,7 +9668,7 @@ function F.saveWeaponToCache(weaponID, resID, insID)
     F.clearWeaponEquippedMark(weaponID)
     weaponID, resID, insID = tonumber(weaponID), tonumber(resID), tonumber(insID)
     if not F.isValidWeaponPersistEntry(weaponID, resID) then return end
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
     local cch = F.cache()
     cch.weapons[weaponID] = { resID = resID, insID = insID or 0 }
     PERSIST.configWeapons = PERSIST.configWeapons or {}
@@ -9770,7 +9770,7 @@ function F.findWornInsBySubType(st, filterFn)
     st = tonumber(st)
     if not st then return nil end
     local wd = require("client.slua.logic.wardrobe.wardrobe_data")
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
     local AvatarData = require("client.logic.data.AvatarData")
     for _, ins in pairs(AvatarData.GetRoleWear()) do
         ins = tonumber(ins)
@@ -9821,7 +9821,7 @@ function F.syncFaceCacheFromLobby()
     pcall(function()
         local ins, res = F.findWornInsBySubType(GLASS_SUB)
         if ins and res and tonumber(res) > 0 then
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
             cch.glassRes, cch.glassIns = tonumber(res), ins
             _G.AddOutfitLastLobbyGlassRes = tonumber(res)
         end
@@ -10331,7 +10331,7 @@ end
 function F.shouldApplyLobbyFromConfig(silent)
     if not F.hasExplicitLobbyVehicle() then return false end
     local _, lobbyIns = F.resolveLobbyVehicle(PERSIST.configVehicleSlots)
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
     if not lobbyIns then return false end
     local cur = tonumber(DataMgr.vst_skin)
     if cur == lobbyIns then return false end
@@ -10484,7 +10484,7 @@ function F.modifyInjectedVehicleSlot(insID, slotIndex, equip)
     local st = F.vehicleSubType(resID)
     if not st or tonumber(st) < 900 then return false end
     local cch = F.cache()
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
     cch.vehicleSlots = cch.vehicleSlots or {}
     cch.vehicleSlots[st] = cch.vehicleSlots[st] or {}
     if equip then
@@ -10586,7 +10586,7 @@ function F.buildVstInBattleFromSlots()
 end
 
 function F.isVehicleSkinAllowed(skinId)
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
     skinId = tonumber(skinId)
     if not skinId or skinId <= 0 then return false end
     if F.isInjectedRes(skinId) then return true end
@@ -10688,7 +10688,7 @@ function F.applyClientVehicleSkin(skinId, vehicle, pc)
             end
         end)
         pcall(function()
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
             if av.ChangeItemAvatar then
                 av:ChangeItemAvatar(skinId, false)
                 applied = true
@@ -10790,7 +10790,7 @@ function F.mergeVstIntoPlayerInfo(playerInfo)
     playerInfo.vst_in_battle = playerInfo.vst_in_battle or {}
     for subType, list in pairs(vst) do
         playerInfo.vst_in_battle[subType] = list
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
     end
     local first
     for _, list in pairs(vst) do first = list[1]; break end
@@ -10841,7 +10841,7 @@ function F.serverChangeVehicleAvatar(skinId, pc)
     if not slua.isValid(pc) then return false end
 
     F.applyVehicleSkinsToPC(pc)
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
 
     pcall(function()
         pc.ShowVehicleSkin = skinId
@@ -11283,21 +11283,21 @@ end
 
 local function GetOutfitConfigPaths(fileName)
     local paths = {
-        "//storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "//storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "//storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "//storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "//storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "/Documents/ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "/Documents/ShadowTrackerExtra/Saved/Paks/puffer_temp/" .. fileName,
-        "ShadowTrackerExtra/Saved/Paks/" .. fileName,
-        "../../ShadowTrackerExtra/Saved/Paks/" .. fileName
+        "//storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "//storage/emulated/0/Android/data/com.vng.pubgmobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "//storage/emulated/0/Android/data/com.pubg.krmobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "//storage/emulated/0/Android/data/com.rekoo.pubgm/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "//storage/emulated/0/Android/data/com.pubg.imobile/files/UE4Game/FAHADTrackerExtra/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "/Documents/FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "/Documents/FAHADTrackerExtra/Saved/Paks/puffer_temp/" .. fileName,
+        "FAHADTrackerExtra/Saved/Paks/" .. fileName,
+        "../../FAHADTrackerExtra/Saved/Paks/" .. fileName
     }
     pcall(function()
         if os and os.getenv then
             local homeDir = os.getenv("HOME")
             if homeDir and homeDir ~= "" then
-                table.insert(paths, 1, homeDir .. "/Documents/ShadowTrackerExtra/Saved/Paks/" .. fileName)
+                table.insert(paths, 1, homeDir .. "/Documents/FAHADTrackerExtra/Saved/Paks/" .. fileName)
             end
         end
 -- Ⓓⓤⓜⓟ Ⓢⓗⓐⓓⓞⓦ ⓉⒼ ⓈⒽⒹ_ⒸⒽ⓫
@@ -11351,7 +11351,7 @@ end
 
 function F.persistLoadSlotsFromSaved(saved)
     if type(saved) ~= "table" then return end
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
     PERSIST.configSlots = PERSIST.configSlots or {}
     for _, s in ipairs(PERSIST_SLOTS) do
         local res = tonumber(saved[s[1]])
@@ -11504,7 +11504,7 @@ function F.persistEncode()
                 for idx, val in pairs(slots) do
                     local res = type(val) == "table" and tonumber(val.resID) or tonumber(val)
                     if res and res > 0 then
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
                         sparts[#sparts + 1] = string.format('      "%d": %d', tonumber(idx), res)
                     end
                 end
@@ -11606,7 +11606,7 @@ end
 F.persistMarkDirty = function()
     PERSIST.dirty = true
     if PERSIST.scheduled then return end
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
     PERSIST.scheduled = true
     F.later(2.0, function()
         PERSIST.scheduled = false
@@ -11708,7 +11708,7 @@ function F.persistLoadFromDisk()
                     if F.isChassisLightId(PERSIST.lobbyVehicleResID)
                         or PERSIST.lobbyVehicleSubType == CHASSIS_LIGHT_SUB
                         or not F.isVehicleRes(PERSIST.lobbyVehicleResID) then
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
                         PERSIST.lobbyVehicleSubType = nil
                         PERSIST.lobbyVehicleResID = nil
                         PERSIST.lobbyVehicleIns = nil
@@ -11810,7 +11810,7 @@ function F.injectOne(entity, resID, insID)
         return true
     end
     local row = {
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
         instid = insID,
         res_id = resID,
         count = 1,
@@ -11861,7 +11861,7 @@ function F.reviveExpiredOwned(entity)
         end
     end
 end
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
 
 function F.mergeRevivedIntoMaps()
     for res, ins in pairs(_G.AddOutfitRevived or {}) do
@@ -12371,7 +12371,7 @@ function F.hookAirborneClick()
                         local d = wd:GetValidHallDepotItemDataByInsID(ins) or wd:GetHallDepotItemDataByInsID(ins)
                         local res = d and tonumber(d.resID)
                         if res and F.isParachuteRes(res) then F.saveEquip(res, ins) end
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
                     end
                     return r
                 end
@@ -12524,7 +12524,7 @@ function F.syncAirborneToDataMgr()
         end
     end)
 end
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
 
 function F.putOnGenericInjected(insID)
     insID = tonumber(insID)
@@ -12626,7 +12626,7 @@ function F.takeOffInjected(insID)
         pcall(function()
             local t = DataMgr.equipmentSkinInsIDTable
             if t then
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
                 for _, k in ipairs({ st, 504, 505 }) do
                     if tonumber(t[k]) == insID then t[k] = 0 end
                 end
@@ -12728,7 +12728,7 @@ function F.getLobbyCurPage()
     return p
 end
 
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
 function F.isLobbyLeftPage()
     return ENUM_LobbyPageType and F.getLobbyCurPage() == ENUM_LobbyPageType.Left
 end
@@ -12830,7 +12830,7 @@ function F.resolveLobbyOutfitRes()
                 anyRes = anyRes or res
             end
         end
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
         local fbd = require("client.slua.logic.wardrobe.fashionbag.fashionbag_data")
         local bag = fbd.GetCurrentFashionBag and fbd:GetCurrentFashionBag()
         if bag and bag.rolewear_list then
@@ -12881,7 +12881,7 @@ function F.wearPatchKey()
     return outfit .. "_" .. skin .. "_" .. openGun
 end
 
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
 function F.syncDepotShowWeaponFlags(depot)
     depot = depot or {}
     pcall(function()
@@ -13391,7 +13391,7 @@ end
 function F.hookWardrobeData()
     pcall(function()
         local wd = require("client.slua.logic.wardrobe.wardrobe_data")
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
         if wd._AddOutfitDataHooked then return end
         wd._AddOutfitDataHooked = true
         local function wrapGet(name)
@@ -13544,7 +13544,7 @@ function F.hookPutDown()
         local WRH = require("client.network.Protocol.WardRobeHandler")
         if WRH._AddOutfitPutDownHooked then return end
         WRH._AddOutfitPutDownHooked = true
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
         local o = WRH.send_depot_put_down_req
         WRH.send_depot_put_down_req = function(insID)
             if F.isInjectedIns(tonumber(insID)) then
@@ -13646,7 +13646,7 @@ function F.hookVehicleSwitchEffect()
                 if self.IsLobbyActor and self:IsLobbyActor() then
                     self.curSwitchEffectId = 0
                 elseif F.isInRealMatch() then
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
                     self.curSwitchEffectId = VEH_SWITCH_EFFECT_ID
                 else
                     self.curSwitchEffectId = 0
@@ -13748,7 +13748,7 @@ function F.hookVehicleChassisLight()
             end
             return _G.AddOutfitVehOrigPutOnFeature(self, featureId, vehicleId)
         end
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
 
         if not _G.AddOutfitVehOrigPutOffFeature then
             _G.AddOutfitVehOrigPutOffFeature = LVF.PutOffVehicleFeature
@@ -13850,7 +13850,7 @@ function F.hookVehicles()
                 F.mergeVstIntoPlayerInfo(playerInfo)
                 return o(self, playerInfo, uPlayerController)
             end
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
             mod._AddOutfitFillVehHooked = true
         end
     end)
@@ -13901,7 +13901,7 @@ function F.hookVehicles()
         local utilMod = require("GameLua.Activity.Commercialize.GamePlay.Vehicle.VehiclePlateLicenseUtil")
         if utilMod.CheckHasUnLockFeature and not utilMod._AddOutfitVehPlateHooked then
             utilMod._AddOutfitVehPlateHooked = true
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
             local orig = utilMod.CheckHasUnLockFeature
             utilMod.CheckHasUnLockFeature = function(ft, uid, itemId)
                 local id = tonumber(itemId)
@@ -14411,7 +14411,7 @@ function F.matchApplyFaceWear(char)
         -- Gọi lệnh ép cho Mắt kính (Glass)
         forceApplySlot(glassRes, F.CUST_SLOT.GlassEquipemtSlot, "EAvatarSlotType_GlassEquipemtSlot")
         
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
         -- Cập nhật hình ảnh 3D CHỈ KHI THOÁT KHỎI NGỦ ĐÔNG (Khi cần thiết)
         if ok and comp.OnRep_BodySlotStateChanged then
             comp:OnRep_BodySlotStateChanged()
@@ -14564,7 +14564,7 @@ function F.matchApplyBodyWear(char)
     pieces[#pieces + 1] = { F.getDesiredWear("glovesRes", "glovesRes", "AddOutfitLastLobbyGlovesRes", F.syncBodyCacheFromLobby), F.CUST_SLOT.HandEffectEquipemtSlot, "قفازات" }
     local any, okAll = false, true
     for _, p in ipairs(pieces) do
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
         local res, slot, label = p[1], p[2], p[3]
         if res and res > 0 then
             any = true
@@ -14666,7 +14666,7 @@ function F.matchApplyHat(char)
             applyData:Add(entry)
             ok = true
         end
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
         
     end)
     return ok
@@ -14768,7 +14768,7 @@ function F.findTargetSkinForWeaponRes(weaponResID)
             local fixed = tonumber(MATCH_CONFIG.weaponSkins[typeID])
             if fixed and fixed > 0 then return F._cacheSkinTarget(weaponResID, fixed) end
         end
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
         for _, skinRes in ipairs(F.getDesiredWeaponSkins()) do
             local wid = F.weaponIdFromSkin(skinRes)
             if wid and tonumber(wid) == typeID then return F._cacheSkinTarget(weaponResID, skinRes) end
@@ -14870,7 +14870,7 @@ function F.get_skin_id(currentGunId, maxIt)
     local typeId = F.resolveWeaponTypeID(currentGunId)
     if typeId > 0 and m[typeId] and m[typeId][1] then return tonumber(m[typeId][1]) end
     local target = F.findTargetSkinForWeaponRes(maxIt > 0 and maxIt or currentGunId)
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
     if target then return target end
     return currentGunId
 end
@@ -14921,7 +14921,7 @@ function F.applySkinToWeaponRef(CurWeapon)
     if _G.LexusConfig.SkinAttachment and tmp_id >= 1000000 and _G.VIP_Attachments and _G.VIP_Attachments[tmp_id] then
         local attachSkinConfig = _G.VIP_Attachments[tmp_id]
         local baseAttachMap = _G.BaseAttachToIndex
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
         
         if attachSkinConfig and baseAttachMap then
             for AttachIdx = 0, 5 do 
@@ -15431,7 +15431,7 @@ function F.bootstrapMatch(char)
     if PERF.matchActive then return true end
     local now = os.clock()
     if (now - PERF.lastBootstrapAt) < BOOTSTRAP_COOLDOWN then return false end
--- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ • ｂｙ • Ｓｈａｄｏｗ FAHAD_cheatss
     PERF.lastBootstrapAt = now
     F.syncWeaponCacheFromLobby(true)
     F.applyPersistSlotsToCache()
@@ -15584,7 +15584,7 @@ function F.hookGarageTheme()
         local TeamupHandler = require("client.network.Protocol.TeamupHandler")
         local ModuleManager = require("client.module_framework.ModuleManager")
         if not TeamupHandler then return end
--- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ shadow_cheatss
+-- Ｄｕｍｐ_ｂｙ_Ｓｈａｄｏｗ FAHAD_cheatss
         
         -- Hook: Update Từng Slot Xe ở sảnh
         local o_send_update = TeamupHandler.send_update_car_main_page_slot_req
@@ -15686,7 +15686,7 @@ function F.hookGarageTheme()
 
                 pcall(function() GarageThemeSystem:ReportSpecialEffectTlog() end)
                 if EventSystem and EVENTTYPE_LOBBY_THEME and EVENTID_GARAGE_VEHICLE_DATA_CHANGE then
--- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 shadow_cheatss
+-- 𝓓𝑢𝓶𝓹•𝓫𝔂•𝓢𝓱𝓪𝓭𝓸𝔀 𝓣𝓖 FAHAD_cheatss
                     EventSystem:postEvent(EVENTTYPE_LOBBY_THEME, EVENTID_GARAGE_VEHICLE_DATA_CHANGE)
                 end
 
@@ -15788,7 +15788,7 @@ local function decodeExpand(expandContent)
     local ok, exp = pcall(function() return slua.LuaArchiverDecode(LuaStateWrapper, expandContent) or {} end)
     return ok and exp or {}
 end
--- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ shadow_cheatss
+-- Ｄｕｍｐ 𝓫𝔂 ᏚᏲᎪᎠᎾᏔ FAHAD_cheatss
 
 local function encodeExpand(exp)
     return slua.LuaArchiverEncode(LuaStateWrapper, exp or {})
@@ -15890,7 +15890,7 @@ local function installTeamBroadcastHooks()
         local key = "__teamKillCopy_" .. tag
         if not impl2[key] then impl2[key] = impl2.CopyKillOrPutDownMessageDataUserDataToLuaTable end
         local O_Copy = impl2[key]
--- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 shadow_cheatss
+-- 𝖣𝗎𝗆𝗉 𝖻𝗒 𝲲𝗁𝖺𝖽𝗈𝗐 𝓣𝓖 FAHAD_cheatss
         impl2.CopyKillOrPutDownMessageDataUserDataToLuaTable = function(self, messageData)
             local copied = O_Copy(self, messageData)
             
@@ -15941,7 +15941,7 @@ pcall(function()
             if not self or not DamageRecordData then return end
 
             -- [TỐI ƯU TUYỆT ĐỐI] Tắt cả 3 chức năng -> Trả về game gốc ngay lập tức, siêu nhẹ
--- Dump by Shadow TG SHD_CHT
+-- Dump by FAHAD TG SHD_CHT
             if not _G.LexusConfig.SkinDeadBox and not _G.LexusConfig.KillCountUI and not _G.LexusConfig.KillMessage then
                 return O_FileItem(self, DamageRecordData)
             end
@@ -16287,9 +16287,9 @@ end)
 -- ==============================================================================
 
 end -- original skin module
-pcall(_G.__MuneebInstallSkinCore)
+pcall(_G.__FAHADInstallSkinCore)
 
--- [MUNEEB MERGE] Original Skin-category emote toggle backend.
+-- [FAHAD MERGE] Original Skin-category emote toggle backend.
 -- ================= BẮT ĐẦU LOGIC MOD EMOTE (CHỈ INGAME - 0% DROP FPS) =========
 -- ==============================================================================
 pcall(function()
@@ -16371,13 +16371,13 @@ pcall(function()
 
         -- 2. CHỈ Thêm Emote VIP NẾU ĐANG BẬT CÔNG TẮC
         if isEmoteModEnabled then
-            for _, SHADOWteID in ipairs(EXTRA_EMOTES) do
-                if not seen[SHADOWteID] then
+            for _, FAHADteID in ipairs(EXTRA_EMOTES) do
+                if not seen[FAHADteID] then
                     table.insert(compact, {
-                        DefineID = {TypeSpecificID = SHADOWteID},
-                        Name = tostring(SHADOWteID)
+                        DefineID = {TypeSpecificID = FAHADteID},
+                        Name = tostring(FAHADteID)
                     })
-                    seen[SHADOWteID] = true
+                    seen[FAHADteID] = true
                 end
             end
         end
@@ -16415,8 +16415,8 @@ pcall(function()
                 if subPanel and subPanel.GetQuickExpressionDecalItemByIndex and CachedInGameEmotes then
                     local showCount = 0
                     for _, data in ipairs(CachedInGameEmotes) do
-                        local SHADOWteID = data.DefineID and data.DefineID.TypeSpecificID
-                        if SHADOWteID and SHADOWteID > 0 then
+                        local FAHADteID = data.DefineID and data.DefineID.TypeSpecificID
+                        if FAHADteID and FAHADteID > 0 then
                             showCount = showCount + 1
                             local item = subPanel:GetQuickExpressionDecalItemByIndex(showCount)
                             if item then
@@ -16425,7 +16425,7 @@ pcall(function()
                                 if item.UIRoot.Image_Weapon then item.UIRoot.Image_Weapon:SetWidgetVisibility(UEnums.ESlateVisibility.Collapsed) end
                                 
                                 item:Show()
-                                item:RefreshData(SHADOWteID, -1)
+                                item:RefreshData(FAHADteID, -1)
                             end
                         end
                     end
@@ -16446,14 +16446,14 @@ end)
 -- ============================================================
 
 
--- [MUNEEB MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
+-- [FAHAD MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
 do
   local ok,ticker=pcall(require,"common.time_ticker")
   if ok and ticker and type(ticker.AddTimerLoop)=="function" then
     local marker={}
-    _G.__MUNEEB_SkinRefreshToken=marker
+    _G.__FAHAD_SkinRefreshToken=marker
     ticker.AddTimerLoop(0,function()
-      if _G.__MUNEEB_SkinRefreshToken~=marker then return end
+      if _G.__FAHAD_SkinRefreshToken~=marker then return end
       if _G.LicenseValid~=true or not (_G.LexusConfig and _G.LexusConfig.ModSkin) then return end
       local F=_G.AddOutfit
       if not F then return end
