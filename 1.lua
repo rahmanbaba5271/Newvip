@@ -2435,7 +2435,7 @@ _G.LexusConfig.IpadView = _G.LexusConfig.IpadView or false
 _G.LexusState = _G.LexusState or {}
 _G.LexusState.CustomTextData = _G.LexusState.CustomTextData or {}
 _G.LexusState.CustomTextData.IpadViewFOV = _G.LexusState.CustomTextData.IpadViewFOV or 120
--- [MUNEEB MERGE] Skin-only config taken from the original 1.lua feature flags.
+-- [MR FAHAD MERGE] Skin-only config taken from the original 1.lua feature flags.
 _G.LexusConfig = _G.LexusConfig or {}
 if _G.LexusConfig.ModEmote == nil then _G.LexusConfig.ModEmote = false end
 if _G.LexusConfig.SkinOpenLink == nil then _G.LexusConfig.SkinOpenLink = false end
@@ -2846,12 +2846,12 @@ do
     local WallColors={"Pink","White","Cyan","Green","Yellow","Saffron","Red"}
     for _,entry in ipairs({{"WallVisible","Visible color"},{"WallOccluded","Behind-wall color"}}) do
         local key,label=entry[1],entry[2]
-        WallStack[#WallStack+1]={Key="Muneeb"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
+        WallStack[#WallStack+1]={Key="MR FAHAD"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
             SwitcherText=WallColors,SwitcherValue={1,2,3,4,5,6,7},
             GetFunc=function() return _G.LunarFeatures and _G.LunarFeatures.Settings[key] or 1 end,
             SetFunc=function(c,v) return _G.LunarFeatures and _G.LunarFeatures.SetWallColor(key,v or c) end}
     end
-    local page={Key="HackMenu",Text="✦ MUNEEBXFILER GOLD ✦",UIKey="Setting_Page_Privacy",Category={
+    local page={Key="HackMenu",Text="✦ MR FAHAD GOLD ✦",UIKey="Setting_Page_Privacy",Category={
         {Key="Lunar_ESP_V2",Text="✦ ESP V2 ✦",Stack=V2},
         {Key="Lunar_Other",Text="✦ GOLD FEATURES ✦",Stack=Other},
         {Key="Muneeb_CharacterTools",Text="✦ CHARACTER TOOLS ✦",Stack=CharacterTools},
@@ -6220,7 +6220,7 @@ do
     end
     F.SetV2=function(key,value) return F.SetESP(2,key,value) end
 
-    -- [MUNEEB MERGE] Wall controls update the original UI state.
+    -- [MR FAHAD MERGE] Wall controls update the original UI state.
     F.SetWall=function(value)
       local on=value==true or value==1
       if settings.WallEnabled==on then return true end
@@ -6252,7 +6252,7 @@ do
     end
 end
 
--- [MUNEEB MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
+-- [MR FAHAD MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
 -- The existing ESP scheduler drives this; no new Wall timer.
 do
     local F=_G.LunarFeatures
@@ -7441,7 +7441,7 @@ end
 -- ORIGINAL GAME CLASS AND FEATURE REGISTRATION START
 -- Supplied native keys and paths appear once; existing unique additions follow.
 
--- [MUNEEB MERGE] Original skin/wardrobe module (no unrelated donor functions).
+-- [MR FAHAD MERGE] Original skin/wardrobe module (no unrelated donor functions).
 function _G.__MuneebInstallSkinCore()
 -- ================= BẮT ĐẦU CORE ADD-OUTFIT V7.5 (HỆ THỐNG SKIN) =================
 -- ==============================================================================
@@ -16289,7 +16289,7 @@ end)
 end -- original skin module
 pcall(_G.__MuneebInstallSkinCore)
 
--- [MUNEEB MERGE] Original Skin-category emote toggle backend.
+-- [MR FAHAD MERGE] Original Skin-category emote toggle backend.
 -- ================= BẮT ĐẦU LOGIC MOD EMOTE (CHỈ INGAME - 0% DROP FPS) =========
 -- ==============================================================================
 pcall(function()
@@ -16446,7 +16446,7 @@ end)
 -- ============================================================
 
 
--- [MUNEEB MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
+-- [MR FAHAD MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
 do
   local ok,ticker=pcall(require,"common.time_ticker")
   if ok and ticker and type(ticker.AddTimerLoop)=="function" then
