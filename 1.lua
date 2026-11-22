@@ -80,7 +80,7 @@ do
 -- ============================================================================
 local MasterLicenseConfig = (function()
     return {
-        url = 'https://wa.me/923132767907', game = 'PUBG',
+        url = 'https://mrfahad.keysgen.online/connect', game = 'PUBG',
         timeout = 10, clockSkew = 120, expiryPath = nil,
         manualExpiry = nil, tamperTolerance = 5,
         secret = 'DIAMONDYT',
