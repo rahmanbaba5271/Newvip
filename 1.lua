@@ -321,7 +321,7 @@ local MasterLicenseCore = (function()
     local CreateAuth = (function()
         return function(P, cfg, deps)
             local A = {}
-            local phase, message = 'locked', 'TG: @MRFAHAD_OWNERS WA: +92 [PUBG_OFFICIAL].'
+            local phase, message = 'locked', 'TG: PUBG_OFFICIAL WA:  [PUBG_OFFICIAL].'
             local allowed, pending, generation = false, nil, 0
             local expiresAt
 -- 𝔇𝔲𝔪𝔭 𝔟𝔶 𝔖𝔥𝔞𝔡𝔬𝔴 𝔗𝔊 𝔖ℌ𝔇_ℭℌ𝔗
