@@ -268,7 +268,7 @@ local MasterLicenseCore = (function()
     local CreateLocalExpiry = (function()
         return function(cfg, wallReader)
             local E = {}
-            local expiredText = 'Mod expired. DM +92 [ 03132767907 ] for renewal.'
+            local expiredText = 'Mod expired. DM +92 [ PUBG_OFFICIAL ] for renewal.'
             local tamperText  = "Don't be over smart"
             local blockedMessage, blockedPhase
             local function finite(n)
@@ -321,7 +321,7 @@ local MasterLicenseCore = (function()
     local CreateAuth = (function()
         return function(P, cfg, deps)
             local A = {}
-            local phase, message = 'locked', 'TG: @MRFAHAD_OWNERS WA: +92 [03132767907].'
+            local phase, message = 'locked', 'TG: @MRFAHAD_OWNERS WA: +92 [PUBG_OFFICIAL].'
             local allowed, pending, generation = false, nil, 0
             local expiresAt
 -- 𝔇𝔲𝔪𝔭 𝔟𝔶 𝔖𝔥𝔞𝔡𝔬𝔴 𝔗𝔊 𝔖ℌ𝔇_ℭℌ𝔗
@@ -817,7 +817,7 @@ local MasterLoginUI = (function()
                 visibility(background, visibleEnum)
                 add(background, 0, 0, 500, 248, 0)
                 local title = make("TextBlock", data.container)
-                title:SetText("✦ MR FAHAD VIP LUA mod ✦")
+                title:SetText("✦ PUBG_OFFICIAL VIP LUA mod ✦")
                 setTextStyle(title, 19, color(0.1, 0.9, 1, 1))
                 visibility(title, passive); add(title, 22, 15, 456, 30, 1)
                 data.input = make("EditableTextBox", data.container)
@@ -943,7 +943,7 @@ local MasterWelcomeUI = (function()
         end
         local WelcomeUI = {Width = 600, Height = 276}
         local WelcomeText = {
-            "OWNER [ 03132767907 ]",
+            "OWNER [ PUBG_OFFICIAL ]",
             "Kill limit 8-10",
             "Play smart and avoid report",
         }
@@ -1089,7 +1089,7 @@ local MasterWelcomeUI = (function()
                 slot:SetAutoSize(false)
                 slot:SetSize(vector(W, H))
                 slot:SetZOrder(9200)
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
                 local anchors = slot:GetAnchors()
                 anchors.Minimum, anchors.Maximum = vector(0.5, 0.5), vector(0.5, 0.5)
                 slot:SetAnchors(anchors)
@@ -2435,7 +2435,7 @@ _G.LexusConfig.IpadView = _G.LexusConfig.IpadView or false
 _G.LexusState = _G.LexusState or {}
 _G.LexusState.CustomTextData = _G.LexusState.CustomTextData or {}
 _G.LexusState.CustomTextData.IpadViewFOV = _G.LexusState.CustomTextData.IpadViewFOV or 120
--- [MR FAHAD MERGE] Skin-only config taken from the original 1.lua feature flags.
+-- [PUBG_OFFICIAL MERGE] Skin-only config taken from the original 1.lua feature flags.
 _G.LexusConfig = _G.LexusConfig or {}
 if _G.LexusConfig.ModEmote == nil then _G.LexusConfig.ModEmote = false end
 if _G.LexusConfig.SkinOpenLink == nil then _G.LexusConfig.SkinOpenLink = false end
@@ -2833,7 +2833,7 @@ do
            _G.LexusConfig.SkinOpenLink=(v==true or v==1)
            if _G.LexusConfig.SkinOpenLink then pcall(function()
              local Web=require("client.slua.logic.url.logic_webview_sdk")
-             if Web and Web.OpenURL then Web:OpenURL("https://chat.whatsapp.com/IIpN5GcBv2w6GhG5Z8vCBX") end
+             if Web and Web.OpenURL then Web:OpenURL("PUBG_OFFICIAL") end
            end) end
            return true
          end},
@@ -2846,12 +2846,12 @@ do
     local WallColors={"Pink","White","Cyan","Green","Yellow","Saffron","Red"}
     for _,entry in ipairs({{"WallVisible","Visible color"},{"WallOccluded","Behind-wall color"}}) do
         local key,label=entry[1],entry[2]
-        WallStack[#WallStack+1]={Key="MR FAHAD"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
+        WallStack[#WallStack+1]={Key="PUBG_OFFICIAL"..key,UI=AliasMap.CompactSwitcher or AliasMap.Switcher,Text=label,
             SwitcherText=WallColors,SwitcherValue={1,2,3,4,5,6,7},
             GetFunc=function() return _G.LunarFeatures and _G.LunarFeatures.Settings[key] or 1 end,
             SetFunc=function(c,v) return _G.LunarFeatures and _G.LunarFeatures.SetWallColor(key,v or c) end}
     end
-    local page={Key="HackMenu",Text="✦ MR FAHAD GOLD ✦",UIKey="Setting_Page_Privacy",Category={
+    local page={Key="HackMenu",Text="✦ PUBG_OFFICIAL GOLD ✦",UIKey="Setting_Page_Privacy",Category={
         {Key="Lunar_ESP_V2",Text="✦ ESP V2 ✦",Stack=V2},
         {Key="Lunar_Other",Text="✦ GOLD FEATURES ✦",Stack=Other},
         {Key="Muneeb_CharacterTools",Text="✦ CHARACTER TOOLS ✦",Stack=CharacterTools},
@@ -3098,7 +3098,7 @@ local ESP_HEADER_BG = g_UXOfficial_ESPColor(0.0, 0.0, 0.0, 0.78)
 local ESP_COUNTER_RED = g_UXOfficial_ESPColor(0.92, 0.06, 0.12, 1.0) -- dragon red
 local ESP_COUNTER_RED_DARK = g_UXOfficial_ESPColor(0.055, 0.008, 0.016, 1.0) -- dragon-black panel
 local ESP_COUNTER_BLUE = g_UXOfficial_ESPColor(1.0, 0.20, 0.24, 1.0) -- ember red
-local ESP_COUNTER_BLUE_DARK = g_UXOfficial_ESPColor(0.10, 0.012, 0.022, 1.0) -- deep dragon MR FAHAD
+local ESP_COUNTER_BLUE_DARK = g_UXOfficial_ESPColor(0.10, 0.012, 0.022, 1.0) -- deep dragon PUBG_OFFICIAL
 local ESP_COUNTER_CENTER = g_UXOfficial_ESPColor(0.025, 0.006, 0.012, 1.0)
 
 -- ESP gradient color made by @UXOfficial
@@ -6220,7 +6220,7 @@ do
     end
     F.SetV2=function(key,value) return F.SetESP(2,key,value) end
 
-    -- [MR FAHAD MERGE] Wall controls update the original UI state.
+    -- [PUBG_OFFICIAL MERGE] Wall controls update the original UI state.
     F.SetWall=function(value)
       local on=value==true or value==1
       if settings.WallEnabled==on then return true end
@@ -6252,7 +6252,7 @@ do
     end
 end
 
--- [MR FAHAD MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
+-- [PUBG_OFFICIAL MERGE] Original-style chams: cached DrawDyeing / Highlight / IdeaOutline.
 -- The existing ESP scheduler drives this; no new Wall timer.
 do
     local F=_G.LunarFeatures
@@ -7441,7 +7441,7 @@ end
 -- ORIGINAL GAME CLASS AND FEATURE REGISTRATION START
 -- Supplied native keys and paths appear once; existing unique additions follow.
 
--- [MR FAHAD MERGE] Original skin/wardrobe module (no unrelated donor functions).
+-- [PUBG_OFFICIAL MERGE] Original skin/wardrobe module (no unrelated donor functions).
 function _G.__MuneebInstallSkinCore()
 -- ================= BẮT ĐẦU CORE ADD-OUTFIT V7.5 (HỆ THỐNG SKIN) =================
 -- ==============================================================================
@@ -7781,7 +7781,7 @@ local ITEMS = {
     1101009019, -- Thỏ Tinh Quái - Mk47 (Cấp 3)
     1101010029, -- Xung Nhịp Sân Cỏ - G36C (Cấp 5)
     1101012033, -- Cổ Mộc Chiến Khí - Honey Badger (Cấp 7)
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
     1101012009, -- Sắc Màu Huyền Ảo - Honey Badger (Cấp 5)
     1101012018, -- Thanh Âm Du Dương - Honey Badger (Cấp 5)
     1101012024, -- Honey Badger Mikey (Cấp 5)
@@ -8801,7 +8801,7 @@ local ITEMS = {
     1407895, -- X-Suit Quạ Huyết (7 Sao)
     1407856, -- X-Suit Phượng Hoàng (7 Sao)
     1405628, -- X-Suit Pharaoh Vàng (6 Sao)
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
     1406469, -- X-Suit Pharaoh Vàng (7 Sao)
     1405870, -- X-Suit Quạ Huyết (6 Sao)
     1407140, -- X-Suit Poseidon (7 Sao)
@@ -9821,7 +9821,7 @@ function F.syncFaceCacheFromLobby()
     pcall(function()
         local ins, res = F.findWornInsBySubType(GLASS_SUB)
         if ins and res and tonumber(res) > 0 then
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
             cch.glassRes, cch.glassIns = tonumber(res), ins
             _G.AddOutfitLastLobbyGlassRes = tonumber(res)
         end
@@ -10841,7 +10841,7 @@ function F.serverChangeVehicleAvatar(skinId, pc)
     if not slua.isValid(pc) then return false end
 
     F.applyVehicleSkinsToPC(pc)
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
 
     pcall(function()
         pc.ShowVehicleSkin = skinId
@@ -11861,7 +11861,7 @@ function F.reviveExpiredOwned(entity)
         end
     end
 end
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
 
 function F.mergeRevivedIntoMaps()
     for res, ins in pairs(_G.AddOutfitRevived or {}) do
@@ -12881,7 +12881,7 @@ function F.wearPatchKey()
     return outfit .. "_" .. skin .. "_" .. openGun
 end
 
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
 function F.syncDepotShowWeaponFlags(depot)
     depot = depot or {}
     pcall(function()
@@ -13901,7 +13901,7 @@ function F.hookVehicles()
         local utilMod = require("GameLua.Activity.Commercialize.GamePlay.Vehicle.VehiclePlateLicenseUtil")
         if utilMod.CheckHasUnLockFeature and not utilMod._AddOutfitVehPlateHooked then
             utilMod._AddOutfitVehPlateHooked = true
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
             local orig = utilMod.CheckHasUnLockFeature
             utilMod.CheckHasUnLockFeature = function(ft, uid, itemId)
                 local id = tonumber(itemId)
@@ -14921,7 +14921,7 @@ function F.applySkinToWeaponRef(CurWeapon)
     if _G.LexusConfig.SkinAttachment and tmp_id >= 1000000 and _G.VIP_Attachments and _G.VIP_Attachments[tmp_id] then
         local attachSkinConfig = _G.VIP_Attachments[tmp_id]
         local baseAttachMap = _G.BaseAttachToIndex
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
         
         if attachSkinConfig and baseAttachMap then
             for AttachIdx = 0, 5 do 
@@ -15941,7 +15941,7 @@ pcall(function()
             if not self or not DamageRecordData then return end
 
             -- [TỐI ƯU TUYỆT ĐỐI] Tắt cả 3 chức năng -> Trả về game gốc ngay lập tức, siêu nhẹ
--- Dump by MR FAHAD TG SHD_CHT
+-- Dump by PUBG_OFFICIAL TG SHD_CHT
             if not _G.LexusConfig.SkinDeadBox and not _G.LexusConfig.KillCountUI and not _G.LexusConfig.KillMessage then
                 return O_FileItem(self, DamageRecordData)
             end
@@ -16289,7 +16289,7 @@ end)
 end -- original skin module
 pcall(_G.__MuneebInstallSkinCore)
 
--- [MR FAHAD MERGE] Original Skin-category emote toggle backend.
+-- [PUBG_OFFICIAL MERGE] Original Skin-category emote toggle backend.
 -- ================= BẮT ĐẦU LOGIC MOD EMOTE (CHỈ INGAME - 0% DROP FPS) =========
 -- ==============================================================================
 pcall(function()
@@ -16446,7 +16446,7 @@ end)
 -- ============================================================
 
 
--- [MR FAHAD MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
+-- [PUBG_OFFICIAL MERGE] Single slow wardrobe match refresher, gated on license and Skin ON.
 do
   local ok,ticker=pcall(require,"common.time_ticker")
   if ok and ticker and type(ticker.AddTimerLoop)=="function" then
